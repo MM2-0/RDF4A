@@ -1,12 +1,28 @@
-# Welcome to the RDF4J code repository
+# RDF4A - Porting RDF4J to Android
 
-This is the main code repository for the Eclipse RDF4J project. Please see
-[RDF4J.org](http://rdf4j.org) for detailed information about RDF4J, including
-user documentation and download links.
+This is a port of RDF4J to the Android platform.
 
-## Keen to contribute?
+## What is RDF4J?
 
-We welcome contributions! Please read our [Contributor
-guidelines](https://github.com/eclipse/rdf4j/blob/master/.github/CONTRIBUTING.md) for
-more information on how to get started.
+> Eclipse RDF4J (formerly known as Sesame) is a powerful Java framework for processing and handling RDF data. This includes creating, parsing, scalable storage, reasoning and querying with RDF and Linked Data. It offers an easy-to-use API that can be connected to all leading RDF database solutions.
 
+[RDF4J homepage](http://rdf4j.org/)
+
+## Setup
+
+Install to local Maven repository
+```
+mvn package -DskipTests && mvn install -DskipTests
+```
+
+Include in an Android project
+```
+//build.gradle
+repositories {
+    mavenLocal()
+}
+dependencies {
+    compile 'de.mm20.rdf4a:rdf4j-model:1.1-SNAPSHOT'
+    [...]
+}
+```
