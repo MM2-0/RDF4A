@@ -7,7 +7,7 @@
  *******************************************************************************/
 package org.eclipse.rdf4j.http.client;
 
-import org.apache.http.client.HttpClient;
+import cz.msebera.android.httpclient.client.HttpClient;
 
 /**
  * Manages remote HTP connections.

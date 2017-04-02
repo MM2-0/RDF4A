@@ -17,9 +17,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 
-import javax.xml.bind.annotation.adapters.HexBinaryAdapter;
-
 import org.eclipse.rdf4j.common.net.ParsedURI;
+import org.eclipse.rdf4j.javax.xml.bind.annotation.adapters.HexBinaryAdapter;
 import org.eclipse.rdf4j.model.BNode;
 import org.eclipse.rdf4j.model.IRI;
 import org.eclipse.rdf4j.model.Literal;

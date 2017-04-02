@@ -278,6 +278,6 @@ public class DirectoryLockManager implements LockManager {
 	}
 
 	private String getProcessName() {
-		return ManagementFactory.getRuntimeMXBean().getName();
+		return Thread.currentThread().getName();
 	}
 }

@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.eclipse.rdf4j</groupId>
+		<groupId>de.mm20.rdf4a</groupId>
 		<artifactId>rdf4j-sail</artifactId>
 		<version>1.1-SNAPSHOT</version>
 	</parent>
@@ -17,38 +17,38 @@ The Federation SAIL allows multiple datasets to be virtually combined into a sin
 
 	<dependencies>
 		<dependency>
-			<groupId>org.eclipse.rdf4j</groupId>
+			<groupId>de.mm20.rdf4a</groupId>
 			<artifactId>rdf4j-rio-turtle</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.rdf4j</groupId>
+			<groupId>de.mm20.rdf4a</groupId>
 			<artifactId>rdf4j-queryalgebra-evaluation</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.rdf4j</groupId>
+			<groupId>de.mm20.rdf4a</groupId>
 			<artifactId>rdf4j-sail-inferencer</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.rdf4j</groupId>
+			<groupId>de.mm20.rdf4a</groupId>
 			<artifactId>rdf4j-model</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.rdf4j</groupId>
+			<groupId>de.mm20.rdf4a</groupId>
 			<artifactId>rdf4j-repository-sail</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.rdf4j</groupId>
+			<groupId>de.mm20.rdf4a</groupId>
 			<artifactId>rdf4j-sail-memory</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.rdf4j</groupId>
+			<groupId>de.mm20.rdf4a</groupId>
 			<artifactId>rdf4j-queryparser-sparql</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>

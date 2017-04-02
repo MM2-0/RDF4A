@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.eclipse.rdf4j</groupId>
+		<groupId>de.mm20.rdf4a</groupId>
 		<artifactId>rdf4j-http</artifactId>
 		<version>1.1-SNAPSHOT</version>
 	</parent>
@@ -51,8 +51,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
+			<groupId>cz.msebera.android</groupId>
 			<artifactId>httpclient</artifactId>
+			<version>4.4.1.2</version>
 		</dependency>
 
 		<dependency>

@@ -13,12 +13,12 @@ import java.security.cert.X509Certificate;
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSession;
 
-import org.apache.http.client.HttpClient;
-import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.ssl.SSLContextBuilder;
-import org.apache.http.ssl.TrustStrategy;
+import cz.msebera.android.httpclient.client.HttpClient;
+import cz.msebera.android.httpclient.conn.ssl.SSLConnectionSocketFactory;
+import cz.msebera.android.httpclient.impl.client.HttpClientBuilder;
+import cz.msebera.android.httpclient.impl.client.HttpClients;
+import cz.msebera.android.httpclient.ssl.SSLContextBuilder;
+import cz.msebera.android.httpclient.ssl.TrustStrategy;
 import org.eclipse.rdf4j.http.client.HttpClientDependent;
 
 /**

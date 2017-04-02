@@ -21,6 +21,7 @@ import org.eclipse.rdf4j.http.protocol.transaction.operations.SPARQLUpdateOperat
 import org.eclipse.rdf4j.http.protocol.transaction.operations.SetNamespaceOperation;
 import org.eclipse.rdf4j.http.protocol.transaction.operations.StatementOperation;
 import org.eclipse.rdf4j.http.protocol.transaction.operations.TransactionOperation;
+import org.eclipse.rdf4j.javax.xml.bind.DatatypeConverter;
 import org.eclipse.rdf4j.model.BNode;
 import org.eclipse.rdf4j.model.IRI;
 import org.eclipse.rdf4j.model.Literal;
@@ -346,7 +347,7 @@ public class TransactionWriter {
 
 			if (!valid) {
 				xmlWriter.setAttribute(TransactionXMLConstants.ENCODING_ATT, "base64");
-				label = javax.xml.bind.DatatypeConverter.printBase64Binary(label.getBytes("UTF-8"));
+				label = DatatypeConverter.printBase64Binary(label.getBytes("UTF-8"));
 			}
 
 			xmlWriter.textElement(TransactionXMLConstants.LITERAL_TAG, label);
